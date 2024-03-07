@@ -1,0 +1,69 @@
+html estructura
+
+.1# etiquetas:
+
+-html = dentro de esta etiqueta estará nuestra app
+-head = cabeza
+-title
+-body = es el cuerpo principal de la app web
+-footer = el pie de página de la app web
+-h1 = titulos va hasta el h6
+-p = parrafos
+-div 
+
+.2# atributos:
+
+-lang = atributo va en la etiqueta principal html y sirve para dar
+a entender al navegador de que la página contiene contenido en español
+principalmente el atributo viene en ingles ( en ) pero para que 
+lo identifique como español se cambia a (es)
+
+-charset otra sería charset="UTF-8" que hace que el navegador o la app que 
+se este usando pueda interpretar visualmente cosas de nuestro idioma
+como la ñ o los asenteos ( ó ) entre otros 
+
+-name es un tributo que se usa para obtener y nombrar  o diferenciar
+una etiqueta y su valor o lo que contiene
+
+-class este atributo sirve para dar le estilos a una etiqueta 
+se diferencia de otros por que se puede usar una misma clase para 
+muchas etiquetas
+
+-id su funcionamiento es exactamente igual que class pero su distinción 
+es que solo debe existir un mismo atributo id para una sola etiqueta
+si hay debe distinguirse del resto.
+
+.3# FORMULARIOS:
+
+Los formularios son un sistema en la cual podemos pedir y enviar información
+atravez de cuadros de textos y botones, en html tenemos la etiqueta form 
+esta etiqueta viene acompañada de varias etiquetas más 
+1. inputs = cuadros de textos(textbox)
+2. labels = titulos que indican a los cuadros de texto lo que debe escribir el usuario
+3. botones: ya sea para enviar el formulario o para realizar cualquier otra acción antes de enviar el form
+
+el form de html tiene dos atributos muy importantes
+
+1. action: este atributo nos sirve para indicar hacía que archivo
+se va a dirigir los datos ingresados por el usuario
+
+
+2.method: este atributo nos indica o indica por que tipo de método http se dirijirá la información, ya sea método get o método post
+
+para poder entender al 100 form debemos comprender que son los método get y post
+
+estos métodos hacen o indican por donde se envía la información, el método get envía la información atravez de la url, haciendo que la información que ingresó el usuario sea visible atravez de la url, lo cual es peligroso teniendo en cuenta que entre esos datos puede haber contraseñas e información censible
+
+el método post por su parte envía la información por una "capa superiror" a la url, haciendo que la información del usuario enviada no se visualice en lo absoluto, pero la información si se envia.
+para que no queden cabos sueltos vamos a ver que es una url
+
+
+.4# URL:
+
+una url es una dirección que indica la ubicación virtual sobre un proyecto o un elemento del proyecto como carpetas o secciones visuales como una página de un formulario para ingresar a algún lado.
+¿Cómo funciona? el concepto de url es bastante extensa y compleja
+pero solo explicaré la versión más sencilla posible.
+
+tarea: crear la estructura básica de html y crear un formulario
+que pida al usuario nombre apellido para mostrar esos datos en otra
+página
