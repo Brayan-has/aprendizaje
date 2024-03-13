@@ -1,0 +1,26 @@
+body{
+    background-color: black; /*cambia el color de fondo del body*/
+    color: white;  /*cambia de color los textos*/
+    margin: 0;
+}
+
+
+/* encabezado de la página */
+
+.encabezado{
+    background-color:green;
+    width: 100%;
+    height: 70px;
+    padding: 7px;  
+}
+
+ol{
+    padding: 20px;
+    margin: 10px; 
+}
+
+ol,li{
+ 
+    display: flex;
+    padding: 10px;
+}

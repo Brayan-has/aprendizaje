@@ -150,3 +150,27 @@ los espaciados en html los realizas con la etiqueta
 br es decir <br/>
 esta etiqueta es una etiqueta unica puesto que no posee una etiqueta extra de cierre y la puedes
 usar donde quieras.
+
+
+
+mañana:
+
+etiquetas
+-img = atributos src = search = buscar y tal = reemplazar por un posible error
+-icon
+-tipos de inputs
+-enrutamiento avanzado
+-video
+-audio
+
+
+atributos
+-src
+-href
+-tal
+-type
+-tamaño
+
+inf: https://carontestudio.com/blog/listado-de-etiquetas-html/
+
+proyecto final proyecto de venta.

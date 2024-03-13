@@ -1,0 +1,85 @@
+que es css
+
+estilos en cascada
+
+enlanzar archivo css con uno html 
+lo hacemos con la etiqueta de html <link>
+
+ESTRUCTURA BÁSICA:
+
+selector + {} + declaración (propiedad + valor)
+Ejemplo:
+
+h1{ /*h1 = selector*/
+
+    background-color: red; /*declaración*/
+}
+
+
+
+
+DOM ( DOCUMENT OBJECT MODEL ):
+
+padding:
+
+marging:
+
+
+
+
+
+
+
+SELECTORES:
+
+
+
+
+
+
+
+
+
+
+SELECTORESE MULTIPLES:
+
+
+
+
+
+
+
+
+
+
+
+ELEMENTOS:
+
+1#: padding (relleno)
+
+
+
+
+2#: margin (margen)
+
+3#: border (borde)
+
+/*las clases de html se indican como selectores en css con un punto */
+
+/*los ids en html se indican como selectores en css con un numeral (#)*/
+
+Ejemplo: 
+#parafoDom{
+    background-color: rgb(243, 196, 243);
+    padding: 30px;
+    margin: 30px;
+    color: black;
+    border: 10px solid red;
+}
+
+
+
+/* text red white blue */
+/* rgb (255,255,255)*/
+/* exadecimal #fff #000 */
+ 
