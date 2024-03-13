@@ -1,40 +1,66 @@
 que es css
 
-estilos en cascada
-
-enlanzar archivo css con uno html 
-lo hacemos con la etiqueta de html <link>
+css es un lenguaje de programación se podría decir que nos sirve o no es útil para dar estilos a nuestros archivos estáticos html, es decir con css podemos modificar todo el html para que este tenga una apariencia atractiva para el ojo humano como con ciertos colores, como con ciertas fuentes de letra que son más atractivas, como con el tamaño del texto, ocultando elmentos, aplicando un control mucho más llevadero desdel punto de la vista de los ojos de una página web.
 
 ESTRUCTURA BÁSICA:
+la estructura básica para que los estilos se apliquen correctamente a un carchivo html, recordemos que debemos hacer uso de la etiqueta link
+de esta manera:
+(<link rel="stylesheet" href="./primeraCarpeta/archivoPrincipal.css">)
+
+teniendo eso en cuenta podemos realizar o continuar con la estructura básica que se compone de lo siguiente:
 
 selector + {} + declaración (propiedad + valor)
+
+Los selectores son elementos del html como los h (h1,h2,h3,h4,h5 y h6) o elementos que hacen parte de una clase como por ejemplo <p class="casa">Casa</p>
+
+después del selector tenemos la declaración que se compone de propiedad valor es decir que tendremos propiedades de css como por ejemplo backgroud-color para cambiar el color de fondo de una etiqueta ya sea un div un p o lo que sea, y el valor sería un color ya sea en texto o ya sea en exadecimal o ya sea en rgb,
+(luego explicaré a detalle estos sistemas de color)
+teniendo eesto en cuenta con un ejemplo que daría de la siguiente manera 
 Ejemplo:
 
 h1{ /*h1 = selector*/
 
     background-color: red; /*declaración*/
+    /*background-color = propiedad  y red = valor*/
 }
 
 
 
 
 DOM ( DOCUMENT OBJECT MODEL ):
+El DOM (si bien es un termino "exclusivo" de javascript es en realidad un elemento natal o nativo html) es como están estructurado desde el punto de vista del navegador las etiquetas de html, es decir cada etiqueta tiene 3 capas, 1# el contenido del elemento, 2# padding (o relleno que sería su contenido interno o espaciado que se le puede realizar en el interior de la etiqueta), 3# margin (a su vez que el pedding es una capa superiro de la etiqueta que puede expandir se hacía afuera)
 
-padding:
+padding (relleno): con padding se puede expandir el contenido del elemento es decir el texto para que quede justo en el centro de esa "caja"
 
-marging:
+marging: con margin se puede expandir el la caja o el margin en si pero hacía el exterior evitando que algun otro elemento invada el contenido de la etiqueta.
 
 
-
+contenido: El contendio principal que se encuentra justo en el centro de las dos cajas mencionadas se puede modificar como su tamaño, color el tipo de fuente (el tipo de letra) entre un montón de cosa más.
 
 
 
 
 SELECTORES:
+Los selectores son elementos de html con la que hacemos llamadas desde css para modificar su estructura como por ejemeplo una etiqueta en general como p, div, los h, hasta le body todo el DOM en general.
+Con los selectores podemos acceder a dichos elementos incluso si estos poseen un atributo class o id, normalmente los elementos que se mencionan y existen en el html pero cuando queremos realizar un código que solo afecte a ciertos elementos, como por ejemplo un parrafo que haga el papel de ser titulo, con colores especificos tamaños fuentes etc.
 
+Para hacer llamada de una clase desde css usamos un punto ( . + el texto exacto que contene como valor dicha clase o atributo)
+por ejemplo:
 
+html
+<p class="casa">Casa</p>
 
+css
+.casa{
+    color: violet;
+}
 
+.En el caso de ser un id o identificador tenemos que hacer uso del caracter asterisco ( # asterisco o sharp en ingles )
+es decir:
+
+#casa{
+    color: violet;
+}
 
 
 
@@ -42,8 +68,14 @@ SELECTORES:
 
 
 SELECTORESE MULTIPLES:
+Los selectores multiples son una cadena de selectore uno tras de otro
+que cumplen el proposito de indicar hacía que elemento en concreto se está apuntando es decir, cuando tenemos una cadena de etiquetas como la clásica etiqueta de ul + li + a Entonces cuando queremos aplicar estilos a las etiqutas a que se encuentren dentro de li que que asu vez esos li se encuentren dentro de un ul para algo en concreto, el código sería de la siguiente manera:
 
+ul,li,a{
+    text-color: none;
+}
 
+este código solo va aplicar a las etiquetas <a></a> que se encuentran dentro de una etiqueta li, pero que está li solo este dentro de un ul es decir siendo el padre de la capa la etiqueta ul y el hijo el li siendo por último la etiqueta a al que se apunta.
 
 
 
@@ -54,11 +86,11 @@ SELECTORESE MULTIPLES:
 
 
 ELEMENTOS:
+Ahora desde aquí iré explicando cada uno de los elementos de css posiblese y sus caracteristicas especiales además de variantes como color, backgroud-color, text-color etc.
+
+
 
 1#: padding (relleno)
-
-
-
 
 2#: margin (margen)
 
