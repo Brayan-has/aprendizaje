@@ -1,6 +1,6 @@
 body{
-    background-color: black; /*cambia el color de fondo del body*/
-    color: white;  /*cambia de color los textos*/
+    background-color: rgb(18, 18, 18); /*cambia el color de fondo del body*/
+    color: rgb(214, 213, 213);  /*cambia de color los textos*/
     margin: 0;
 }
 
@@ -8,19 +8,76 @@ body{
 /* encabezado de la página */
 
 .encabezado{
-    background-color:green;
+    display: flex;
+    background-color:rgb(6, 156, 6);
     width: 100%;
     height: 70px;
     padding: 7px;  
 }
 
+/* aquí le aplico código solo a la etiqueta ol */
 ol{
     padding: 20px;
     margin: 10px; 
+    margin-left: 100px; /*los elementos hacen un margen hacía la derecha*/
+
 }
 
+/*
+ aquí le aplico código solo a la etiqueta li que se encuentra 
+ dentro de la etiqueta ol
+ */
+
+
+ /* Se aplican estilos a los links o etiquetas a(<a></a>) */
+ ol,a {
+    text-decoration: none;
+    color: rgb(255, 223, 19);
+    margin-left: 20px;
+    margin-top: 30px;
+ }
+
+/* código aplicados a las etiquetas li */
 ol,li{
  
-    display: flex;
+    display:contents;
     padding: 10px;
+    
+}
+
+/* código para el form con la clase formulario */
+.formulario{
+
+    text-align:center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+/* código para el input con la clase buscar */
+.buscar{
+    
+    height: 30px;
+    width: 500px;
+}
+/* 
+.btn{
+    margin-left: 560px;
+    margin-top: 200px
+    
+} */
+
+/* imagen / logo */
+
+.imagen{
+    
+    width: 100px;
+    height: 70px;
+    
+}
+
+
+/* body : elementos  H/titulos */
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    font-size: 50px;
 }

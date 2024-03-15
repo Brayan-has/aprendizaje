@@ -1,4 +1,19 @@
-que es css
+PLAN DE ESTUDIO CON CSS:
+
+basico css = Tienda de venta (super mercado el todo)
+
+transiciones = super mercado el todo (tabla productos)
+
+animaciones
+
+responsivo
+
+file = archivo, new file 
+folder = carpeta, new folder
+
+
+
+QUE ES CSS
 
 css es un lenguaje de programación se podría decir que nos sirve o no es útil para dar estilos a nuestros archivos estáticos html, es decir con css podemos modificar todo el html para que este tenga una apariencia atractiva para el ojo humano como con ciertos colores, como con ciertas fuentes de letra que son más atractivas, como con el tamaño del texto, ocultando elmentos, aplicando un control mucho más llevadero desdel punto de la vista de los ojos de una página web.
 
@@ -79,7 +94,10 @@ este código solo va aplicar a las etiquetas <a></a> que se encuentran dentro de
 
 
 
-
+SELECTOR EN CADENA:
+h1 h2 h3 h4 h5 h6 {
+    código para todos los h
+}
 
 
 
