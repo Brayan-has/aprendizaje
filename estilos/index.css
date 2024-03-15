@@ -43,6 +43,7 @@ ol,li{
     display:contents;
     padding: 10px;
     
+    
 }
 
 /* código para el form con la clase formulario */
@@ -58,6 +59,7 @@ ol,li{
     
     height: 30px;
     width: 500px;
+    
 }
 /* 
 .btn{
@@ -80,4 +82,5 @@ ol,li{
 h1, h2, h3, h4, h5, h6 {
     color: blue;
     font-size: 50px;
+  
 }
