@@ -218,3 +218,13 @@ valor
 /* rgb (255,255,255)*/
 /* exadecimal #fff #000 */
  
+
+
+
+ EFECTOS:
+
+ Le podemos aplicar una especie de función a los selectores con dos punto
+ ( h1:funcionNombre {
+
+    código
+ } )
