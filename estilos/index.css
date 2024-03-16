@@ -91,27 +91,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /* lista de productos*/
 
-.lista ol li{
+/* .menu-vertical ol li{
     display: block;
     color: #4b4b4b;
-}
+} */
 
-.lista{
-    display: block;
+/* .menu-vertical{
+  
     background-color: white;
     width: 100px;
     height: 300px;
-    margin-left: 1030px;
-    margin-top: -20px;
+    margin-left: 1025px;
+    margin-top: 53px;
     position:absolute;
-}
-
-/* .lista ol li .lista:hover{
-    display: block;
-    background-color: red;
 } */
 
 
-a:active {
-    color: red;
+
+
+
+/* texto dentro del input */
+input{
+    text-align: center;
+    font-size: 20px;
 }
+
+/* what ever */
+
+/* vertical */

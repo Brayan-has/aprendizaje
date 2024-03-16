@@ -11,7 +11,7 @@
     <title>Supermercado El Todo</title>
     <!-- rel = hoja de estilo -->
     <link rel="stylesheet" href="./estilos/index.css" />
-    <link rel="icon" href="./imagenes/Son_Goku_en_Super_Hero.jpg" />
+    <link rel="icon" href="./imagenes/logo.jpg" />
   </head>
   <!-- header de la página -->
   <div class="encabezado">
@@ -19,28 +19,27 @@
       <img src="./imagenes/logo.jpg" alt="Logo principal" class="imagen" />
     </div>
     <form action="" class="formulario">
-      <input type="text" class="buscar" />
+      <input type="text" placeholder="Buscar producto" class="buscar" />
       <!-- <input type="submit" value="Buscar" class="btn boton" /> -->
     </form>
     <!-- lista ordenada-->
-    <ol>
-        <a href="#" ><li class="productos">PRODUCTOS</li></a>
-        <a href="./login/ingresa.html" ><li>INGRESAR</li></a>
-        <a href="./login/registro.html" target="_blank"><li>REGISTRARSE</li></a>
-        
+    <ol class="menu-horizontal">
+      <li class="productos"></li><a href="#">PRODUCTOS</a></li>
+      <li><a href="./login/ingresa.html">INGRESAR</a></li>
+      <li><a href="./login/registro.html" target="_blank">REGISTRARSE</a></li>
+    
+     <ol class="menu-vertical">
+       <li> <a href="./paginas/arroz.html">ARROZ</a></li>
+        <li><a href="./paginas/aceite.html">ACEITE</a></li>
+        <li><a href="./paginas/pastas.html">PASTAS</a></li>
+        <li><a href="./paginas/huevos.html">HUEVOS</a></li>
+       <li> <a href="./paginas/leche.html">LECHE</a></li>
+    </ol>
+    
+     
+   
   </div>
   <body>
-    <div class="lista">
-  
-      <ol>
-        <a href="./paginas/arroz.html"><li>ARROZ</li></a>
-        <a href="./paginas/aceite.html" ><li>ACEITE</li></a>
-        <a href="./paginas/pastas.html" ><li>PASTAS</li></a>
-        <a href="./paginas/huevos.html" ><li>HUEVOS</li></a>
-        <a href="./paginas/leche.html" ><li>LECHE</li></a>
-      </ol>
-  
-    </div>
     <div id="parafoDom">
       <h2>¿QUIENES SOMOS?</h2>
       <p class="parafoDom">
