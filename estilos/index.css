@@ -62,12 +62,42 @@ ol, li{
     width: 500px;
     
 }
-/* 
-.btn{
-    margin-left: 560px;
-    margin-top: 200px
-    
-} */
+/* texto dentro del input */
+input {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid red;
+}
+
+input:hover {
+
+    border: 2px solid rgb(15, 12, 224);
+}
+
+/*botón para buscar */
+
+.btn {
+    width: 50px;
+    height: 20px;
+    border: 1px solid #8d8d8c;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    background-color: #b6b3b3;
+    color: #201f1f;
+    margin-top: 3px;
+    margin-left: 445px;
+}
+
+.btn:active {
+
+    background-color: rgb(236, 247, 74);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
 
 /* imagen / logo */
 
@@ -77,6 +107,21 @@ ol, li{
     height: 70px;
     
 }
+
+/* nombre de la página */
+
+.texto-logo{
+    display: felx;
+    position:absolute;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-style:italic;
+    font-size: 30px;
+    color: rgba(19, 9, 23, 0.815)
+}
+
+
+
 
 
 /* body : elementos  H/titulos */
@@ -89,33 +134,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* lista de productos*/
-
-/* .menu-vertical ol li{
-    display: block;
-    color: #4b4b4b;
-} */
-
-/* .menu-vertical{
-  
+.menu-vertical{
+    display:flex; 
     background-color: white;
     width: 100px;
     height: 300px;
     margin-left: 1025px;
     margin-top: 53px;
     position:absolute;
-} */
-
-
-
-
-
-/* texto dentro del input */
-input{
-    text-align: center;
-    font-size: 20px;
 }
 
-/* what ever */
 
-/* vertical */
+
+
+
