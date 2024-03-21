@@ -28,13 +28,22 @@
 
     <!--formulario: sirve para enviar los datos
     ingresados por el ususario -->
-    <form action="./backEnd/index.php" method="post" class="formIngresar"> 
-      <!-- input: cuadro de texto -->
-      <input type="text" placeholder="ingresa tu usuario">
-      <input type="password" placeholder="ingresa tu contraseña">
 
-      <!-- input botón para enviar  -->
-      <input type="submit" value="ingresar">
+    <form action="./backEnd/index.php" method="post" class="formIngresar" > 
+      
+      <div class="divisor">
+        <div class="titulo">
+          <h2>¡BIENVENIDO!</h2>
+
+        </div>
+        <!-- input: cuadro de texto -->
+        <input class="nombre"  type="text" placeholder="ingresa tu usuario">
+        <input class="nombre" type="password" placeholder="ingresa tu contraseña">
+  
+        <!-- input botón para enviar  -->
+        <input class="boton" type="submit" value="ingresar">
+        <p>olvidaste tú contraseña?</p>
+      </div>
     </form>
 
     </body>

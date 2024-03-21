@@ -145,8 +145,41 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 53px;
     position:absolute;
 }
+ /* menú login*/
+.formIngresar
+{
+    background-color: rgb(16, 183, 230);
+    color: rgb(44, 41, 41);
+    
+    
+}
+.nombre
+{
+    margin: 5px;
+    height: 30px;
+    width: 400px;
+    margin-left: -10px;
+}
+.boton
+{
+    margin: 5px;
+    height: 30px;
+    width: 200px;
+    border: gray;
+}
+.divisor
+{
+    /* position: absolute; */
+    margin-top: 50px;
+    text-align: center;
+    
+}
 
 
+.titulo{
+    position: absolute;
+    margin-top: -120px;
+}
 
 
 
