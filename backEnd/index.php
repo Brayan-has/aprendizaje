@@ -15,3 +15,8 @@ if($nombre == "" || $contrasena == ""){
     header("Location: ../index..html");
 }
 ?>
+<?php
+
+echo "Hola mundo";
+
+?>

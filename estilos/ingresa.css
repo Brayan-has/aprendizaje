@@ -5,26 +5,8 @@
     width: 380px;
     border: 1px solid rgb(6, 138, 105);
     text-align: center;
-    /* mover elementos */
     margin-left: 550px;
     margin-top: 190px;
     padding: 50px;
     
-}
-
-.divisor
-{
-    position: absolute;
-    margin-top: -30px;
-    margin-left: -25px;
-
-}
-
-.imagen{
-    margin-left: -300px;
-}
-
-ol, a{
-    
-    margin-left: 300px;
 }
