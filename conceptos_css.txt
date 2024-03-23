@@ -1,0 +1,230 @@
+PLAN DE ESTUDIO CON CSS:
+
+basico css = Tienda de venta (super mercado el todo)
+
+transiciones = super mercado el todo (tabla productos)
+
+animaciones
+
+responsivo
+
+file = archivo, new file 
+folder = carpeta, new folder
+
+
+
+QUE ES CSS
+
+css es un lenguaje de programación se podría decir que nos sirve o no es útil para dar estilos a nuestros archivos estáticos html, es decir con css podemos modificar todo el html para que este tenga una apariencia atractiva para el ojo humano como con ciertos colores, como con ciertas fuentes de letra que son más atractivas, como con el tamaño del texto, ocultando elmentos, aplicando un control mucho más llevadero desdel punto de la vista de los ojos de una página web.
+
+ESTRUCTURA BÁSICA:
+la estructura básica para que los estilos se apliquen correctamente a un carchivo html, recordemos que debemos hacer uso de la etiqueta link
+de esta manera:
+(<link rel="stylesheet" href="./primeraCarpeta/archivoPrincipal.css">)
+
+teniendo eso en cuenta podemos realizar o continuar con la estructura básica que se compone de lo siguiente:
+
+selector + {} + declaración (propiedad + valor)
+
+Los selectores son elementos del html como los h (h1,h2,h3,h4,h5 y h6) o elementos que hacen parte de una clase como por ejemplo <p class="casa">Casa</p>
+
+después del selector tenemos la declaración que se compone de propiedad valor es decir que tendremos propiedades de css como por ejemplo backgroud-color para cambiar el color de fondo de una etiqueta ya sea un div un p o lo que sea, y el valor sería un color ya sea en texto o ya sea en exadecimal o ya sea en rgb,
+(luego explicaré a detalle estos sistemas de color)
+teniendo eesto en cuenta con un ejemplo que daría de la siguiente manera 
+Ejemplo:
+
+h1{ /*h1 = selector*/
+
+    background-color: red; /*declaración*/
+    /*background-color = propiedad  y red = valor*/
+}
+
+
+
+
+DOM ( DOCUMENT OBJECT MODEL ):
+El DOM (si bien es un termino "exclusivo" de javascript es en realidad un elemento natal o nativo html) es como están estructurado desde el punto de vista del navegador las etiquetas de html, es decir cada etiqueta tiene 3 capas, 1# el contenido del elemento, 2# padding (o relleno que sería su contenido interno o espaciado que se le puede realizar en el interior de la etiqueta), 3# margin (a su vez que el pedding es una capa superiro de la etiqueta que puede expandir se hacía afuera)
+
+padding (relleno): con padding se puede expandir el contenido del elemento es decir el texto para que quede justo en el centro de esa "caja"
+
+marging: con margin se puede expandir el la caja o el margin en si pero hacía el exterior evitando que algun otro elemento invada el contenido de la etiqueta.
+
+
+contenido: El contendio principal que se encuentra justo en el centro de las dos cajas mencionadas se puede modificar como su tamaño, color el tipo de fuente (el tipo de letra) entre un montón de cosa más.
+
+
+
+
+SELECTORES:
+Los selectores son elementos de html con la que hacemos llamadas desde css para modificar su estructura como por ejemeplo una etiqueta en general como p, div, los h, hasta le body todo el DOM en general.
+Con los selectores podemos acceder a dichos elementos incluso si estos poseen un atributo class o id, normalmente los elementos que se mencionan y existen en el html pero cuando queremos realizar un código que solo afecte a ciertos elementos, como por ejemplo un parrafo que haga el papel de ser titulo, con colores especificos tamaños fuentes etc.
+
+Para hacer llamada de una clase desde css usamos un punto ( . + el texto exacto que contene como valor dicha clase o atributo)
+por ejemplo:
+
+html
+<p class="casa">Casa</p>
+
+css
+.casa{
+    color: violet;
+}
+
+.En el caso de ser un id o identificador tenemos que hacer uso del caracter asterisco ( # asterisco o sharp en ingles )
+es decir:
+
+#casa{
+    color: violet;
+}
+
+
+
+
+
+
+SELECTORESE MULTIPLES:
+Los selectores multiples son una cadena de selectore uno tras de otro
+que cumplen el proposito de indicar hacía que elemento en concreto se está apuntando es decir, cuando tenemos una cadena de etiquetas como la clásica etiqueta de ul + li + a Entonces cuando queremos aplicar estilos a las etiqutas a que se encuentren dentro de li que que asu vez esos li se encuentren dentro de un ul para algo en concreto, el código sería de la siguiente manera:
+
+ul li a{
+    text-color: none;
+}
+
+este código solo va aplicar a las etiquetas <a></a> que se encuentran dentro de una etiqueta li, pero que está li solo este dentro de un ul es decir siendo el padre de la capa la etiqueta ul y el hijo el li siendo por último la etiqueta a al que se apunta.
+
+
+
+COMBINACIÓN DE SELECTORES:
+Este se encarga de que todos los elementos que enlistemos se apliquen el estilo que queremos, es decir que todos sin ecepción tengan el código que indiquemos, su estructura sería la siguiente:
+
+h1, h2, h3, h4, h5, h6 {
+    código para todos los h
+}
+
+Ejemplo:
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 50px;
+    color: orange; 
+}
+
+Este código hace que todas las variantes de h que van del 1 hasta el 6 tengan un tamaño de 50 pixeles (bastante grande para un titulo) y el color del texto sesría naranja.
+
+
+
+
+
+
+SELECTORES DE CLASE Y ID:
+Tenemos unos selectores especiales que nos sirven para selecionar elementos de html y aplicar estilos solo a esos elementos sin afectar a otros de su mismo tipo.
+
+Tenemos dos tipos de selectores "especiales" por así decirlo:
+
+1. Selector de clase :
+El selector de clase en css se retrata con un punto ( . ) para que el css pueda aplicar estilos unicamente a esos elementos 
+Ejemplo:
+
+.imagen{
+    with: 30px;
+    height: 30px;
+}
+
+Esto indica que el elemento que posea la clase imagen tendrá como ancho 30 pixeles y de alto 30 pixeles.
+
+2. Selector de id:
+Este selector cumple el mismo punto pero en css se retrata con el signo de #
+
+Ejemplo: 
+#parrafoDom{
+    background-color: rgb(243, 196, 243);
+    padding: 30px;
+    margin: 30px;
+    color: black;
+    border: 10px solid red;
+}
+
+Este código hace que el elemento que tenga este id tenga un fondo de color {}, un relleno de 30 pixeles, un margen de 30 pixeles, el color del texto negro, y un borde de 10 pixeles de ancho de color rojo solido.
+
+
+
+
+
+
+
+ELEMENTOS:
+Ahora desde aquí iré explicando cada uno de los elementos de css posiblese y sus caracteristicas especiales además de variantes como color, backgroud-color, text-color etc.
+
+
+
+1#: padding (relleno)
+valor
+. numero en pixeles (px)
+. número en porcentaje (%)
+.
+
+variantes
+.padding-left (relleno hacía la izquierda)
+.padding-right (relleno hacía la derecha)
+.padding-bottom (relleno hacía abajo)
+.padding-top (relleno hacía arriba)
+
+2#: margin (margen)
+
+variantes
+. margin-left (margen hacía la izquierda)
+. margin-right (margen hacía la derecha)
+. margin-bottom (margen hacía abajo)
+. margin-top (margen hacía arriba)
+
+3#: border (borde)
+bordes de los elementos
+valor
+
+variantes
+. numero en pixeles (px)
+. número en porcentaje (%)
+.
+
+4#: font-size (tamaño de fuente)
+valor
+. large (tamaño grande)
+. larger (más grande que large)
+. medium (tamaño medio)
+. small (pequeño)
+. smaller (más pequeño que small)
+
+5#: text-align (alineación de texto o elementos hijo de un padre)
+
+valor
+. center (al centro)
+. left (a la izquierda)
+. right (hacía la derecha)
+. end (al final)
+. start (al comienso)
+
+
+6#: display (un sistema de organización de los elementos)
+
+. block (en bloque)
+. contents (todo junto/ pegado )
+. flex (flexible)
+. flexbox (caja flexible)
+. son los más básicos: pero por ahora explicar lo solo lo confundirá mucho por lo que tú usalo con prueba y error
+
+7#: background-color (color de fondo de un elemento)
+. texto (tipo red,blue,green,orange,wait etc.)
+. rgb (255,255,255) (un sistema de color en base a los colores primarios tampoco los entiendo al 100% queda para investigar)
+. HSL (exadecimal #fff para el blanco y #000 para el negro y así conbinaciones como un #f5f5f5 para un cafe)
+/* rgb (255,255,255)*/
+/* exadecimal #fff #000 */
+ 
+
+
+
+ EFECTOS:
+
+ Le podemos aplicar una especie de función a los selectores con dos punto
+ ( h1:funcionNombre {
+
+    código
+ } )

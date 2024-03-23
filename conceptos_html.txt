@@ -4,7 +4,7 @@ html estructura
 
 -html = dentro de esta etiqueta estará nuestra app
 -head = cabeza
--title
+-title = el tittulo de la página
 -body = es el cuerpo principal de la app web
 -footer = el pie de página de la app web
 -h1 = titulos va hasta el h6
@@ -64,6 +64,113 @@ una url es una dirección que indica la ubicación virtual sobre un proyecto o u
 ¿Cómo funciona? el concepto de url es bastante extensa y compleja
 pero solo explicaré la versión más sencilla posible.
 
-tarea: crear la estructura básica de html y crear un formulario
-que pida al usuario nombre apellido para mostrar esos datos en otra
-página
+
+
+.4# LISTAS:
+
+Las listas son elementos que agrupamos
+uno detras de otro de forma ordenada o 
+desordenada
+
+para trabajar con listas en html
+hay que tener unas cosas en cuenta
+1 el orden que tendrán
+si son ordenadas o desordenadas 
+
+para esto usamos una de las etiquetas:
+-<ul></ul> = lista desordenada ( 
+    unorder List
+    esto es un contenedor que indica
+    que es o se trata de una lista 
+    desordenada    
+    )
+-<ol></ol> = lista ordenada (
+    order List
+    esto es un contenedor que indica 
+    que se trata de una lista ordenada
+)
+
+lo que sigue para poder generar una lista
+es hacer uso de la etiqueta "Li"
+<li></li>
+
+dentro de las etiquetas li se ponde ya sea 
+texto o en ocasiones enrutadores o hiper vinculo
+
+ejemplo:
+
+ <div class="lista">
+      <h3>Lista de estudiantes:</h3>
+      <br />
+      <p>Lista desordenada</p>
+      <!-- contenedor desordenado -->
+      <ul>
+        <li>Juan Gutirerrez</li>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+      </ul>
+      <p>Lista ordenada</p>
+
+      <!-- contenedor ordenado -->
+      <ol>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+        <li>María Sanchez</li>
+      </ol>
+    </div>
+
+html (hyperText Markup lenguage)
+
+
+
+
+HIPER VINCULOS:
+
+son una forma de abrir o
+llevar al usuario hacía otro lugar 
+(otra página/ la ruta de otra página)
+
+para realizar una paginación con links
+debemos hacer uso de la etiqueta <a href="">contenido</a>
+esta etiqueta contiene un atributo 
+1. la ruta (href): aquí se inidca hacía donde irá el usuario
+
+entonces el texto que se encuentre entre la etiqueta 
+de apoertura y cierre de a se convierte en un link o enrutador 
+que redireccionará al usuario hacía un archivo que se indique o otra página 
+ 
+
+
+ESPACIADOS
+
+los espaciados en html los realizas con la etiqueta 
+br es decir <br/>
+esta etiqueta es una etiqueta unica puesto que no posee una etiqueta extra de cierre y la puedes
+usar donde quieras.
+
+
+
+mañana:
+
+etiquetas
+-img = atributos src = search = buscar y tal = reemplazar por un posible error
+-icon
+-tipos de inputs
+-enrutamiento avanzado
+-video
+-audio
+
+
+atributos
+-src
+-href
+-tal
+-type
+-tamaño
+
+inf: https://carontestudio.com/blog/listado-de-etiquetas-html/
+
+proyecto final proyecto de venta.
