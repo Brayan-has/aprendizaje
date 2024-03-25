@@ -1,0 +1,52 @@
+/* selector para el titulo de la pagina */
+.titulo
+{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(245, 241, 241);
+    font-style:italic;
+}
+/* selecto para subtitulos */
+.subtitulo
+{
+    text-align:center;
+
+}
+/* para el fondo de la pagina */
+.colorPagina
+{
+    background-color:rgb(105, 235, 235);
+    /* text-align: center; */
+}
+
+/* para el fondo de los input */
+.sesion
+{
+    display:block;
+    background-color:white;
+    height: 250px;
+    width: 300px;
+    /* margin: auto; */
+    margin-left: 40%;
+    text-align: center;
+
+
+}
+/* selector para el input submit(aceptar) */
+.aceptar
+{
+    display: block; 
+    margin-left: 40%;
+}
+/* selector para acomodar el fomulario/ inputs */
+.formInput
+{
+    padding-top: 10px;
+
+}
+input
+{
+    margin-top: 10px;
+}
+
+
