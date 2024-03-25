@@ -5,6 +5,26 @@
         <title>Ingresar</title>
         <link rel="stylesheet" href="./estilos/index.css"> 
         <link rel="stylesheet" href="./estilos/ingresa.css">
+         <script src="https://cdn.tailwindcss.com"></script>
+          <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
       </head>
     <body>
          <!-- header de la página -->
@@ -46,4 +66,7 @@
     
 
     </body>
+    <footer>
+      
+    </footer>
 </html>
