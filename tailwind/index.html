@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body class="bg-blue-700">
+    <!-- header principal -->
+
+    <!-- formulario para login -->
+    <div
+      class="container-auto bg-blue-500 w-80 h-80 mx-96 mr-28 p-14 my-64 shadow-2xl absolute blur-sm hover:blur-none transition duration-100 rounded-md"
+    >
+      <div><h2 class="text-gray-300 text-4xl p-4">Bienvenido!</h2></div>
+      <form action="#">
+        <input
+          type="text"
+          placeholder="Ingresa tu nombre"
+          class="my-3 rounded"
+        />
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Ingresa la contraseña"
+          class="rounded"
+          required
+        />
+        <input
+          type="submit"
+          value="Ingresar"
+          class="bg-blue-200 my-3 mr-3 w-52 active:bg-blue-700 rounded"
+        />
+      </form>
+    </div>
+  </body>
 </html>
