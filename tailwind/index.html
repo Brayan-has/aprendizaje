@@ -27,32 +27,37 @@
   </head>
   <body class="bg-blue-700">
     <!-- header principal -->
+    <img src="" alt="Imagen" class="bg-gradient-to-bl" />
 
-    <!-- formulario para login -->
-    <div
-      class="container-auto bg-blue-500 w-80 h-80 mx-96 mr-28 p-14 my-64 shadow-2xl absolute blur-sm hover:blur-none transition duration-100 rounded-md"
-    >
-      <div><h2 class="text-gray-300 text-4xl p-4">Bienvenido!</h2></div>
-      <form action="#">
-        <input
-          type="text"
-          placeholder="Ingresa tu nombre"
-          class="my-3 rounded"
-        />
-        <input
-          type="password"
-          name=""
-          id=""
-          placeholder="Ingresa la contraseña"
-          class="rounded"
-          required
-        />
-        <input
-          type="submit"
-          value="Ingresar"
-          class="bg-blue-200 my-3 mr-3 w-52 active:bg-blue-700 rounded"
-        />
-      </form>
+    <div class="w-1/2 bg-white">
+      <!-- formulario para login -->
+
+      <div
+        class="container-auto bg-blue-500 w-80 h-80 ml-96 p-14 my-64 hover:shadow-2xl absolute blur-sm hover:scale-105 hover:blur-none transition duration-100 rounded-md"
+      >
+        <!-- mensaje de bienvenida -->
+        <h2 class="text-gray-300 text-4xl p-4">Bienvenido!</h2>
+        <form action="../tailwind/backend/index.php" method="get">
+          <input
+            type="text"
+            placeholder="Ingresa tu nombre"
+            class="my-3 rounded"
+          />
+          <input
+            type="password"
+            name=""
+            id=""
+            placeholder="Ingresa la contraseña"
+            class="rounded"
+            required
+          />
+          <input
+            type="submit"
+            value="Ingresar"
+            class="bg-blue-200 my-3 mr-3 w-52 active:bg-blue-700 rounded"
+          />
+        </form>
+      </div>
     </div>
   </body>
 </html>
